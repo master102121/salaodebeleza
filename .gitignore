@@ -22,5 +22,4 @@
 .DS_Store
 
 # O que você mencionou (Data e Gitignore)
-/data/
-!.gitignore
+.env-inffree
