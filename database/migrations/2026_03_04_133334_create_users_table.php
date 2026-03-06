@@ -15,6 +15,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('file_id')->nullable();
             $table->string('name');
+            $table->string('last_name')->after('name')->nullable();
             $table->string('email')->unique();
             $table->string('telefone', 50)->nullable();
             $table->text('endereco')->nullable();
