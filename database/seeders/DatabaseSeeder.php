@@ -15,13 +15,6 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
-
-        User::create([
-            'name'     => 'Paulo',
-            'email'    => 'paulovinteeum@gmail.com',
-            'password' => Hash::make('zenete2121'),
-            'is_admin' => true, // false se quiser acesso limitado
-        ]);
         $this->call(AdministradoresTableSeeder::class);
         $this->call(AgendamentosTableSeeder::class);
         $this->call(AjustesTableSeeder::class);
