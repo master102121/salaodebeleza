@@ -1,0 +1,26 @@
+# Pasta de dependências do PHP (O Railway instalará isso sozinho)
+/vendor
+
+# Pasta de dependências do Front-end (Não suba isso!)
+/node_modules
+
+# Arquivos de configuração sensíveis (Você configurará no painel do Railway)
+.env
+.env.backup
+.env.production
+
+# Pastas de build e cache
+/public/build
+/public/hot
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Arquivos do macOS (Já que você usa Mac)
+.DS_Store
+
+# O que você mencionou (Data e Gitignore)
+/data/
+!.gitignore
