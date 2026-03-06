@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('area_id')->nullable();
             $table->string('categoria', 50)->nullable()->default('cab');
             $table->integer('isadmin')->default(0);
+            $table->integer('is_admin')->default(0);
             $table->integer('membro')->nullable()->comment('1=colih, 2=fac, 3=gvp, 4=outros');
             $table->integer('concordo')->nullable();
             $table->timestamp('email_verified_at')->nullable();
