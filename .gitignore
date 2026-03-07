@@ -20,6 +20,7 @@
 
 # Arquivos do macOS (Já que você usa Mac)
 .DS_Store
+echo "*.sh" >> .gitignore
 
 # O que você mencionou (Data e Gitignore)
 .env-inffree
